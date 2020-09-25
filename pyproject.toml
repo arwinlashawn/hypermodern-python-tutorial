@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hypermodern-python-tutorial"
+version = "0.1.0"
+description = "The hypermodern Python project tutorial"
+authors = ["arwinlashawn <aanakkendary@ucdavis.edu>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/arwinlashawn/hypermodern-python-tutorial"
+repository = "https://github.com/arwinlashawn/hypermodern-python-tutorial"
+keywords = ["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+hypermodern-python = "hypermodern_python_tutorial.console:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+

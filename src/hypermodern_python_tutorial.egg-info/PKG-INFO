@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: hypermodern-python-tutorial
+Version: 0.1.0
+Summary: The hypermodern Python project tutorial
+Home-page: https://github.com/arwinlashawn/hypermodern-python-tutorial
+Author: arwinlashawn
+Author-email: aanakkendary@ucdavis.edu
+License: UNKNOWN
+Description: # hypermodern-python-tutorial
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
